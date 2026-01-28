@@ -1,0 +1,340 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNIJ8cwDW85PpoYN30GveQX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/chinwejoseph/Practicals/blob/main/Class%20practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SH6H6gj6E4sI",
+        "outputId": "09a4616a-3799-4c8e-fb75-d26062243ecb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the value10\n",
+            "10.0\n",
+            "314.159265359\n"
+          ]
+        }
+      ],
+      "source": [
+        "pi = 3.14159265359\n",
+        "radius =float( input('enter the value'))\n",
+        "print (radius)\n",
+        "circle =(pi * ((radius)*(radius)))\n",
+        "print (circle)\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alex_mark == carol_mark"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "siGgFUA8TxUz",
+        "outputId": "ed7980a4-3933-4afe-b969-1f1b9b851e71"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alex_mark = 40\n",
+        "carol_mark = 36\n",
+        "carol_mark >= alex_mark"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HnTXuk_VSvZu",
+        "outputId": "6a08b38a-3baf-4f44-a51e-2524c9f357f1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alex_mark >= carol_mark"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Lomc664VS72d",
+        "outputId": "15182009-45b5-4d66-97a5-e0cc7b8a167b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alex_mark = 75\n",
+        "\n",
+        "alex_attendance = 70\n",
+        "distinction = (alex_mark >= 70) and (alex_attendance >= 80)\n",
+        "print (distinction)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Vjq0fqObUbXw",
+        "outputId": "70178212-c858-49c2-d230-cca1905d8ca0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alex_mark = 75\n",
+        "medal = 'Silver'\n",
+        "distinction = (alex_mark >=70) or (medal == 'Gold')\n",
+        "print (distinction)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g9F1wRQEVyTI",
+        "outputId": "5001d48b-6e9c-415d-be52-ba27cca1437f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class1 = ('alex', 23, 'tall', 'fair')\n",
+        "class2 = ['Carol', 24, 'Short', 'dark']\n",
+        "class3 = {'chinwe', 25, 'average', 'perfect'}\n",
+        "class4 = {'name': 'Tosin', 'Age': 26,'height': float(6.7)}\n",
+        "print (class4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fPe1I5VGdim2",
+        "outputId": "03d14edb-f4c6-4951-fa45-80079735c4ee"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'name': 'Tosin', 'Age': 26, 'height': 6.7}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=45\n",
+        "ages=[34,67]\n",
+        "ages.append(60)\n",
+        "ages"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XxpxW_G5eqkS",
+        "outputId": "65ba1090-649f-4faf-daf8-36cdf4c2c92c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[34, 67, 60]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a= 7\n",
+        "b= 6\n",
+        "c=5\n",
+        "if (a==6):\n",
+        "  print (a)\n",
+        "elif (a!= 7):\n",
+        "  print (c)\n",
+        "else:\n",
+        " print (b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xIhOaEMzjGDL",
+        "outputId": "d79df97c-1b48-487e-ccef-ced717581ab9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=9\n",
+        "if (n>0):\n",
+        "  print('hkjh')\n",
+        "elif (n<0):\n",
+        "  print('hjhk')\n",
+        "else:\n",
+        "  print('hjk')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NE8RrMG0pIr_",
+        "outputId": "11a1e113-40d7-4fcb-8d24-a299dcf7702f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hkjh\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "eligible = 18\n",
+        "age = int(input( 'enter age of the person'))\n",
+        "if age >= 18:\n",
+        "  print ('eligible')\n",
+        "else:\n",
+        "  print ('ineligible')\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lWhnW1nDj2t6",
+        "outputId": "78a337af-7ba4-4d44-a5a0-dfe241a85bf4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter age of the person10\n",
+            "ineligible\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
